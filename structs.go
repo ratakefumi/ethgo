@@ -309,7 +309,7 @@ func (l *Log) Copy() *Log {
 	return ll
 }
 
-type BlockNumber int
+type BlockNumber int64
 
 const (
 	Latest   BlockNumber = -1
